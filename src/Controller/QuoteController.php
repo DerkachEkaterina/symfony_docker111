@@ -1,9 +1,6 @@
 <?php
 
 namespace App\Controller;
-<?php
-
-namespace App\Controller;
 
 use App\Repository\QuoteRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -18,3 +15,5 @@ class QuoteController extends AbstractController
         return $this->render('quote/index.html.twig', [
             'quotes' => $quoteRepository->findAll(),
         ]);
+    }
+}
