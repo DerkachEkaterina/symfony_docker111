@@ -32,3 +32,4 @@ class QuoteFixture extends Fixture
         );
     }
 }
+
