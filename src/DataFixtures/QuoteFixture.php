@@ -28,6 +28,7 @@ class QuoteFixture extends Fixture
             $this->faker->sentence(10),
             $this->faker->name(),
             $this->faker->year()
+
         );
     }
 }
